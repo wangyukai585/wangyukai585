@@ -32,10 +32,31 @@ Hi, I'm **Yukai Wang (王誉凯)**, an undergraduate at **Shanghai Jiao Tong Uni
 
 ### `$ cat toolkit.txt`
 
-`Python` · `Jupyter` · `LangChain` · `ChromaDB` · `Git`
+<p>
+  <img src="assets/icons/python.svg" width="44" height="44" alt="Python">
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/icons/jupyter.svg" width="44" height="44" alt="Jupyter">
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/icons/git.svg" width="44" height="44" alt="Git">
+</p>
+
+**Python · Jupyter · Git**<br>
+RAG toolkit: `LangChain` · `ChromaDB`
+
+### `$ ./contributions --animate`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg">
+  <img src="assets/github-snake.svg" width="100%" alt="A snake animation of Yukai Wang's GitHub contribution graph, updated daily.">
+</picture>
 
 ---
 
 <sub>More about my research and background → <a href="https://wangyukai585.github.io/">Personal website</a></sub>
 
-<!-- Layout inspired by sissc0731/beautiful-github-profile. Terminal artwork and badges are original, repository-hosted SVGs. -->
+<details>
+  <summary>Appearance credits</summary>
+
+Inspired by [beautiful-github-profile](https://github.com/sissc0731/beautiful-github-profile). Technology icons from [Devicon](https://github.com/devicons/devicon) ([MIT license](assets/icons/LICENSE)); contribution animation by [Platane/snk](https://github.com/Platane/snk). Terminal artwork and typing animation are custom SVGs hosted in this repository.
+
+</details>

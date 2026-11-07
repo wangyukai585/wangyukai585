@@ -1,21 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="354" viewBox="0 0 520 354" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="332" viewBox="0 0 520 332" role="img" aria-labelledby="title desc">
 <title id="title">Yukai Wang — terminal profile</title>
 <desc id="desc">Undergraduate at Shanghai Jiao Tong University. Interested in memory, retrieval, and reliable LLM agents.</desc>
-<defs><clipPath id="reveal"><rect class="reveal" x="0" y="0" width="520" height="354"/></clipPath></defs>
+<defs><clipPath id="line-0"><rect class="reveal line-0" x="28" y="252" width="462" height="40"/></clipPath><clipPath id="line-1"><rect class="reveal line-1" x="28" y="252" width="462" height="40"/></clipPath><clipPath id="line-2"><rect class="reveal line-2" x="28" y="252" width="462" height="40"/></clipPath></defs>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;}
-.typing{clip-path:url(#reveal);}
-.reveal{animation:typing 1.6s steps(10,end) both;}
-.cursor{animation:blink .9s step-end 5;}
-@keyframes typing{from{width:0;}to{width:520px;}}
+.reveal{animation:typing 15s steps(32,end) infinite;}
+.rotating{animation:show 15s step-end infinite;}
+.line-1{animation-delay:-10s;}
+.line-2{animation-delay:-5s;}
+.cursor{animation:blink 1s step-end infinite;}
+@keyframes typing{0%{width:0;}14%,25%{width:462px;}32%,100%{width:0;}}
+@keyframes show{0%,32%{opacity:1;}33%,100%{opacity:0;}}
 @keyframes blink{0%,100%{opacity:1;}50%{opacity:0;}}
-@media(prefers-reduced-motion:reduce){.reveal,.cursor{animation:none;}}
+@media(prefers-reduced-motion:reduce){.reveal,.rotating,.cursor{animation:none;}.rotating.line-1,.rotating.line-2{display:none;}}
 </style>
-<rect x=".5" y=".5" width="519" height="353" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x=".5" y=".5" width="519" height="331" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
 <path d="M 13 1 H 507 Q 519 1 519 13 V 43 H 1 V 13 Q 1 1 13 1" fill="#eaeef2"/>
 <path d="M1 43H519" stroke="#d0d7de"/>
 <circle cx="24" cy="22" r="5" fill="#ff5f57"/><circle cx="42" cy="22" r="5" fill="#febc2e"/><circle cx="60" cy="22" r="5" fill="#28c840"/>
 <text x="260" y="27" text-anchor="middle" font-size="13" fill="#57606a">yukai@github: ~</text>
-<text x="28" y="87" fill="#116329" font-size="22" font-weight="400">$ whoami</text><text x="28" y="137" fill="#1f2328" font-size="42" font-weight="600" class="typing">Yukai Wang</text><text x="28" y="175" fill="#57606a" font-size="22" font-weight="400">Undergraduate @</text><text x="28" y="202" fill="#57606a" font-size="22" font-weight="400">Shanghai Jiao Tong University</text><text x="28" y="249" fill="#116329" font-size="22" font-weight="400">$ cat focus.txt</text><text x="28" y="280" fill="#1f2328" font-size="22" font-weight="400">Memory / Retrieval /</text><text x="28" y="307" fill="#1f2328" font-size="22" font-weight="400">Reliable LLM agents</text>
-<text x="28" y="341" font-size="22" fill="#116329">$</text><rect class="cursor" x="52" y="326" width="10" height="18" rx="1" fill="#116329"/>
+<text x="28" y="87" fill="#116329" font-size="22" font-weight="400">$ whoami</text><text x="28" y="137" fill="#1f2328" font-size="42" font-weight="600">Yukai Wang</text><text x="28" y="175" fill="#57606a" font-size="22" font-weight="400">Undergraduate @</text><text x="28" y="202" fill="#57606a" font-size="22" font-weight="400">Shanghai Jiao Tong University</text><text x="28" y="249" fill="#116329" font-size="22" font-weight="400">$ cat profile.txt</text><g class="rotating line-0" clip-path="url(#line-0)"><text x="28" y="280" fill="#1f2328" font-size="22">Computer Science + Bioinformatics</text></g><g class="rotating line-1" clip-path="url(#line-1)"><text x="28" y="280" fill="#1f2328" font-size="22">Agent memory + retrieval</text></g><g class="rotating line-2" clip-path="url(#line-2)"><text x="28" y="280" fill="#1f2328" font-size="22">Building reliable LLM agents</text></g>
+<text x="28" y="317" font-size="22" fill="#116329">$</text><rect class="cursor" x="52" y="302" width="10" height="18" rx="1" fill="#116329"/>
 </svg>
