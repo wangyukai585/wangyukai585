@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="354" viewBox="0 0 520 354" role="img" aria-labelledby="title desc">
+<title id="title">Yukai Wang — terminal profile</title>
+<desc id="desc">Undergraduate at Shanghai Jiao Tong University. Interested in memory, retrieval, and reliable LLM agents.</desc>
+<defs><clipPath id="reveal"><rect class="reveal" x="0" y="0" width="520" height="354"/></clipPath></defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;}
+.typing{clip-path:url(#reveal);}
+.reveal{animation:typing 1.6s steps(10,end) both;}
+.cursor{animation:blink .9s step-end 5;}
+@keyframes typing{from{width:0;}to{width:520px;}}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:0;}}
+@media(prefers-reduced-motion:reduce){.reveal,.cursor{animation:none;}}
+</style>
+<rect x=".5" y=".5" width="519" height="353" rx="12" fill="#0d1117" stroke="#30363d"/>
+<path d="M 13 1 H 507 Q 519 1 519 13 V 43 H 1 V 13 Q 1 1 13 1" fill="#161b22"/>
+<path d="M1 43H519" stroke="#30363d"/>
+<circle cx="24" cy="22" r="5" fill="#ff5f57"/><circle cx="42" cy="22" r="5" fill="#febc2e"/><circle cx="60" cy="22" r="5" fill="#28c840"/>
+<text x="260" y="27" text-anchor="middle" font-size="13" fill="#9da7b3">yukai@github: ~</text>
+<text x="28" y="87" fill="#7ee787" font-size="22" font-weight="400">$ whoami</text><text x="28" y="137" fill="#e6edf3" font-size="42" font-weight="600" class="typing">Yukai Wang</text><text x="28" y="175" fill="#9da7b3" font-size="22" font-weight="400">Undergraduate @</text><text x="28" y="202" fill="#9da7b3" font-size="22" font-weight="400">Shanghai Jiao Tong University</text><text x="28" y="249" fill="#7ee787" font-size="22" font-weight="400">$ cat focus.txt</text><text x="28" y="280" fill="#e6edf3" font-size="22" font-weight="400">Memory / Retrieval /</text><text x="28" y="307" fill="#e6edf3" font-size="22" font-weight="400">Reliable LLM agents</text>
+<text x="28" y="341" font-size="22" fill="#7ee787">$</text><rect class="cursor" x="52" y="326" width="10" height="18" rx="1" fill="#7ee787"/>
+</svg>

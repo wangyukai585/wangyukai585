@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+<title id="title">Yukai Wang — terminal profile</title>
+<desc id="desc">Undergraduate at Shanghai Jiao Tong University. Interested in memory, retrieval, and reliable LLM agents.</desc>
+<defs><clipPath id="reveal"><rect class="reveal" x="0" y="0" width="900" height="320"/></clipPath></defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;}
+.typing{clip-path:url(#reveal);}
+.reveal{animation:typing 1.6s steps(10,end) both;}
+.cursor{animation:blink .9s step-end 5;}
+@keyframes typing{from{width:0;}to{width:900px;}}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:0;}}
+@media(prefers-reduced-motion:reduce){.reveal,.cursor{animation:none;}}
+</style>
+<rect x=".5" y=".5" width="899" height="319" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<path d="M 13 1 H 887 Q 899 1 899 13 V 43 H 1 V 13 Q 1 1 13 1" fill="#eaeef2"/>
+<path d="M1 43H899" stroke="#d0d7de"/>
+<circle cx="24" cy="22" r="5" fill="#ff5f57"/><circle cx="42" cy="22" r="5" fill="#febc2e"/><circle cx="60" cy="22" r="5" fill="#28c840"/>
+<text x="450" y="27" text-anchor="middle" font-size="13" fill="#57606a">yukai@github: ~</text>
+<text x="38" y="87" fill="#116329" font-size="19" font-weight="400">$ whoami</text><text x="38" y="137" fill="#1f2328" font-size="46" font-weight="600" class="typing">Yukai Wang</text><text x="38" y="174" fill="#57606a" font-size="19" font-weight="400">Undergraduate @ Shanghai Jiao Tong University</text><text x="38" y="222" fill="#116329" font-size="19" font-weight="400">$ cat focus.txt</text><text x="38" y="254" fill="#1f2328" font-size="19" font-weight="400">Memory / Retrieval / Reliable LLM agents</text>
+<text x="38" y="294" font-size="19" fill="#116329">$</text><rect class="cursor" x="62" y="279" width="10" height="18" rx="1" fill="#116329"/>
+</svg>
