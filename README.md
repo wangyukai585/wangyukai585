@@ -11,7 +11,7 @@
   <a href="https://www.linkedin.com/in/yukai-wang-35aa26183/"><img src="https://img.shields.io/badge/LinkedIn-334155?style=for-the-badge" alt="LinkedIn" height="24"></a>
 </p>
 
-**王誉凯 · SJTU** — Dual degrees in **Computer Science & Bioinformatics** · Expected June 2027 · Shanghai, China.
+**Yukai Wang · SJTU** — Dual degrees in **Computer Science & Bioinformatics** · Expected June 2027 · Shanghai, China.
 
 ### `$ cat toolkit.txt`
 
